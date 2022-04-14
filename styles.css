@@ -1,0 +1,17 @@
+.section_2{
+    background-color: lightgray;
+    max-width: 850px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.column{
+    width: 270px;
+    margin: 20px;
+
+}
+.h{
+    font-weight: bold;
+    margin: 20px;
+}
