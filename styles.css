@@ -1,3 +1,11 @@
+.centered {
+    position: absolute;
+    top: 200px;
+    left: 335px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
 .section_2{
     background-color: lightgray;
     width: 850px;
@@ -16,11 +24,21 @@
 }
 h1{
     font-weight: bold;
+    font-size: 20px;
     
+}
+h2{
+    font-weight: bold;
+    font-size: 20px;
+
 }
 h3{
     font-weight: bold;
-    font-size: 19px;
+    font-size: 20px;
+    /* There's something off about my h3 that I can't figure out
+    It's a few pixels lower than h1 & h2
+    My column is also a few pixels wider
+    I think it may be the justify-content rounding to whole numbers */
 }
 div{
     padding: 2px;
